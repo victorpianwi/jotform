@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Satisfaction Survey</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Icon -->
+    <link rel="icon" href="img/favicon.ico">
+    <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
+</head>
+<body>
+
+    <!-- Main Form Container -->
+
+    <main class="main-container">
+
+        <!-- Form Header Section -->
+
+        <section class="form-header">
+            <h1>Employee Satisfaction Survey</h1>
+        </section>
+
+        <!-- Form Content Section -->
+
+        <section class="form-content">
+
+            <!-- First and Last Name Input Section -->
+
+            <form action="">
+
+                <section class="first-last-name">
+                    <section class="firstname">
+                        <label for="firstname" class="name weight">Name</label><br>
+                        <input type="text" id="firstname"><br>
+                        <label for="firstname" class="sm-font">First Name</label>
+                    </section>
+                    <section class="last_name">
+                        <input type="text" id="lastname" class="lastname"><br>
+                        <label for="lastname" class="sm-font lastname_">Last Name</label>
+                    </section>
+                </section>
+
+                <!-- Last Name and Date Section -->
+
+                <section class="last-and-date">
+
+                    <section class="lastname">
+                        <label for="lastname-" class="weight">Last name</label><br>
+                        <input type="text" id="lastname-"><br>
+                    </section>
+    
+                    <!-- Date Section -->
+    
+                    <section class="date">
+                        <label for="date" class="weight">Date</label><br>
+                        <input type="date" id="date"><br>
+                        <label for="date" class="sm-font">Date</label>
+
+                    </section>
+                    
+                </section>
+
+                <!-- Job Satisfaction Section -->
+
+                <section class="job-satisfaction">
+                    <label class="weight">How would you describe your overall level of job satisfaction?</label> <br>
+                    <input type="radio"id="satisfied" name="job" class="job"> <label for="satisfied" class="job size" id="satisfied">Very satisfied</label> <br>
+                    <input type="radio"id="some-satisfied" name="job" class="job"> <label for="some-satisfied" class="job size">Somewhat satisfied</label> <br>
+                    <input type="radio"id="neutral" name="job" class="job"> <label for="neutral" class="job size">Neutral</label> <br>
+                    <input type="radio"id="some-dissatisfied" name="job" class="job"> <label for="some-dissatisfied" class="job size">Somewhat dissatisfied</label> <br>
+                    <input type="radio"id="dissatisfied" name="job" class="job"> <label for="dissatisfied" class="job size">Very dissatisfied</label> <br>
+                </section>
+
+                <!-- Rating Section -->
+
+                <section class="rating-section">
+                    <label class="weight">How would you rate the following?</label>
+                    <table class="rate-table">
+                        <tr>
+                            <td style="border: none;"></td>
+                            <td class="rate-col col-1 top-left">Very Poor</td>
+                            <td class="rate-col col-2">Poor</td>
+                            <td class="rate-col col-1">Average</td>
+                            <td class="rate-col col-2">Good</td>
+                            <td class="rate-col col-1 top-right">Excellent</td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="salary">Salary</label></td>
+                            <td><input type="radio" name="salary" id="salary" class="col-1"></td>
+                            <td><input type="radio" name="salary" id="salary" class="col-2"></td>
+                            <td><input type="radio" name="salary" id="salary" class="col-1"></td>
+                            <td><input type="radio" name="salary" id="salary" class="col-2"></td>
+                            <td><input type="radio" name="salary" id="salary" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="overall">Overall Benefits</label></td>
+                            <td><input type="radio" name="overall" id="overall" class="col-1"></td>
+                            <td><input type="radio" name="overall" id="overall" class="col-2"></td>
+                            <td><input type="radio" name="overall" id="overall" class="col-1"></td>
+                            <td><input type="radio" name="overall" id="overall" class="col-2"></td>
+                            <td><input type="radio" name="overall" id="overall" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="health">Health Benefits</label></td>
+                            <td><input type="radio" name="health" id="health" class="col-1"></td>
+                            <td><input type="radio" name="health" id="health" class="col-2"></td>
+                            <td><input type="radio" name="health" id="health" class="col-1"></td>
+                            <td><input type="radio" name="health" id="health" class="col-2"></td>
+                            <td><input type="radio" name="health" id="health" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="work">Physical work environment</label></td>
+                            <td><input type="radio" name="work" id="work" class="col-1"></td>
+                            <td><input type="radio" name="work" id="work" class="col-2"></td>
+                            <td><input type="radio" name="work" id="work" class="col-1"></td>
+                            <td><input type="radio" name="work" id="work" class="col-2"></td>
+                            <td><input type="radio" name="work" id="work" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="senior">Senior leadership</label></td>
+                            <td><input type="radio" name="senior" id="senior" class="col-1"></td>
+                            <td><input type="radio" name="senior" id="senior" class="col-2"></td>
+                            <td><input type="radio" name="senior" id="senior" class="col-1"></td>
+                            <td><input type="radio" name="senior" id="senior" class="col-2"></td>
+                            <td><input type="radio" name="senior" id="senior" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="individual">Individual management</label></td>
+                            <td><input type="radio" name="individual" id="individual" class="col-1"></td>
+                            <td><input type="radio" name="individual" id="individual" class="col-2"></td>
+                            <td><input type="radio" name="individual" id="individual" class="col-1"></td>
+                            <td><input type="radio" name="individual" id="individual" class="col-2"></td>
+                            <td><input type="radio" name="individual" id="individual" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="performance">Performance feedback</label></td>
+                            <td><input type="radio" name="performance" id="performance" class="col-1"></td>
+                            <td><input type="radio" name="performance" id="performance" class="col-2"></td>
+                            <td><input type="radio" name="performance" id="performance" class="col-1"></td>
+                            <td><input type="radio" name="performance" id="performance" class="col-2"></td>
+                            <td><input type="radio" name="performance" id="performance" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="employee">Employee evaluations</label></td>
+                            <td><input type="radio" name="employee" id="employee" class="col-1"></td>
+                            <td><input type="radio" name="employee" id="employee" class="col-2"></td>
+                            <td><input type="radio" name="employee" id="employee" class="col-1"></td>
+                            <td><input type="radio" name="employee" id="employee" class="col-2"></td>
+                            <td><input type="radio" name="employee" id="employee" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="recognition">Recognition</label></td>
+                            <td><input type="radio" name="recognition" id="recognition" class="col-1"></td>
+                            <td><input type="radio" name="recognition" id="recognition" class="col-2"></td>
+                            <td><input type="radio" name="recognition" id="recognition" class="col-1"></td>
+                            <td><input type="radio" name="recognition" id="recognition" class="col-2"></td>
+                            <td><input type="radio" name="recognition" id="recognition" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="training">Training opportunities</label></td>
+                            <td><input type="radio" name="training" id="training" class="col-1"></td>
+                            <td><input type="radio" name="training" id="training" class="col-2"></td>
+                            <td><input type="radio" name="training" id="training" class="col-1"></td>
+                            <td><input type="radio" name="training" id="training" class="col-2"></td>
+                            <td><input type="radio" name="training" id="training" class="col-1"></td>
+                        </tr>
+                        <tr>
+                            <td class="rate-row"><label for="advancement">Opportunities for advancement</label></td>
+                            <td><input type="radio" name="advancement" id="advancement" class="col-1"></td>
+                            <td><input type="radio" name="advancement" id="advancement" class="col-2"></td>
+                            <td><input type="radio" name="advancement" id="advancement" class="col-1"></td>
+                            <td><input type="radio" name="advancement" id="advancement" class="col-2"></td>
+                            <td><input type="radio" name="advancement" id="advancement" class="col-1"></td>
+                        </tr>
+                    </table>
+                </section>
+
+                <!-- Valued Section -->
+
+                <Section class="valued-section">
+                        <label class="weight">Do you feel valued at work?</label> <br>
+                        <input type="radio"id="valued" name="valued" class="valued"> <label for="valued" id="valued" class="valued size">Yes</label> <br>
+                        <input type="radio"id="not-valued" name="valued" class="valued"> <label for="not-valued" class="valued size">No</label> <br>
+                </Section>
+
+                <!-- Please Explain Section:1 -->
+
+                <section class="please-explain-section">
+                    <label for="please-explain" class="weight">If No, Please Explain</label> <br>
+                    <textarea name="please-explain" id="please-explain" cols="69" rows="8" placeholder="Type here..." class="please-explain"></textarea>
+                </section>
+
+		        <!-- Resources Section -->
+
+                <Section class="resources-section">
+                        <label class="weight">Do you have the resources you need to perform your job well?</label> <br>
+                        <input type="radio"id="resources" name="resources" class="resources"> <label for="resources" id="resources" class="resources size">Yes</label> <br>
+                        <input type="radio"id="resources-no" name="resources" class="resources"> <label for="resources-no" class="resources">No</label> <br>
+                </Section>
+
+                <!-- Please Explain Section:2 -->
+
+                <section class="please-explain-section2">
+                    <label for="please-explain2" class="weight">If No, Please Explain</label> <br>
+                    <textarea name="please-explain2" id="please-explain2" cols="69" rows="8" placeholder="Type here..." class="please-explain2"></textarea>
+                </section>
+
+                <!-- Stress Section -->
+
+                <Section class="stress-section">
+                    <label class="weight">Does your job cause you stress or anxiety?</label> <br>
+                    <input type="radio"id="stress" name="stress" class="stress"> <label for="stress" id="stress" class="stress size">Yes</label> <br>
+                    <input type="radio"id="stress-no" name="stress" class="stress"> <label for="stress-no" class="stress size">No</label> <br>
+                </Section>
+
+                <!-- Please Explain Section:3 -->
+
+                <section class="please-explain-section3">
+                    <label for="please-explain3" class="weight">If Yes, Please Explain</label> <br>
+                    <textarea name="please-explain3" id="please-explain3" cols="69" rows="8" placeholder="Type here..." class="please-explain3"></textarea>
+                </section>
+
+                <!-- Sufficient Section -->
+
+                <Section class="sufficient-section">
+                    <label class="weight">Are sufficient efforts being made to solicit colleague opinions and feedback?</label> <br>
+                    <input type="radio" id="sufficient" name="sufficient" class="sufficient"> <label for="sufficient" id="sufficient" class="sufficient size">Yes</label> <br>
+                    <input type="radio" id="not-sufficient" name="sufficient" class="sufficient"> <label for="not-sufficient" class="sufficient size">No</label> <br>
+            </Section>
+
+            <!-- Please Explain Section:4 -->
+
+            <section class="please-explain-section4">
+                <label for="please-explain4" class="weight">If No, Please Explain</label> <br>
+                <textarea name="please-explain4" id="please-explain4" cols="69" rows="8" placeholder="Type here..." class="please-explain4"></textarea>
+            </section>
+
+        </section>
+
+        <!-- Provide Section -->
+        <section class="provide-main">
+            <section class="provide-section">
+            <label for="provide" class="weight">Please Provide Any Additional Feedback</label> <br>
+            <textarea name="provide" id="provide" cols="69" rows="8" placeholder="Type here..." class="provide"></textarea>
+        </section>
+        </section>
+        
+
+        <!-- Button Section -->
+
+        <section class="button-section">
+            <button class="submit-button" type="submit"><span class="sb-text">Submit</span></button>
+        </section>
+
+        </form>
+
+        
+
+    </main>
+
+    <!-- Footer Section -->
+
+    <footer class="bottom">
+        <div>
+            <img src="img/Jotformfooter.png" alt="Jot Form Logo" class="logo">
+        </div>
+        <div class="flex-div">
+            <p class="sm-text" id="hidden">Now create your own JotForm - It's free!</p> <a href="https://www.jotform.com/?utm_source=formfooter&utm_medium=banner&utm_term=212351887822561&utm_content=jotform_button&utm_campaign=powered_by_jotform_le"><button class="footer-btn" id="hover"><span class="creat">Create your own JotForm</span></button></a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
