@@ -21,11 +21,6 @@ input[type="radio"]{
     transition: box-shadow 0.15s ease-in-out, border-radius 0.15s ease-in-out;
 }
 
-input[type="radio"]:hover{
-    box-shadow: 0 0 3px 0 #0d6efd !important;
-    border-radius: 50% !important;
-}
-
 button{
     font-family: 'Inter', sans-serif;
 }
